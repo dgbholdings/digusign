@@ -1,0 +1,58 @@
+
+<main id="content" class="content" role="main">
+
+            <div class="col-md-12">
+                <section class="widget">
+                    <header>
+                      <div class="col-md-offset-1">
+                        <h3>
+                            <strong>Document Hash:</strong> {{doc.hash}}
+                        </h3>
+                      </div>
+                    </header>
+                    <div class="widget-body" style="margin-top:25px">
+                        <form role="form" ng-submit="submit()">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="form-group ">
+                                            <label for="search-input">Sent To</label>
+                                            <div class="input-group"  style="width:100%">
+                                                <pre class="form-control">{{doc.address}}</pre>
+                                            </div>
+                                        </div>
+                                        <div class="form-group ">
+                                            <label for="search-input">Signed At</label>
+                                            <div class="input-group"  style="width:100%">
+                                                <pre class="form-control">{{(doc.timesent * 1000)| date}}</pre>
+                                            </div>
+                                        </div>
+                                        <div class="form-group"  style="width:100%">
+                                            <label for="search-input">Transaction ID</label>
+                                            <div class="input-group"  style="width:100%">
+                                                <pre class="form-control">{{doc.txid}}</pre>
+                                            </div>
+                                        </div>
+                                        <div class="form-group"  style="width:100%">
+                                            <label for="search-input">Document Type</label>
+                                            <div class="input-group"  style="width:100%">
+                                                <pre class="form-control" ng-show="doc.type">{{doc.type}}</pre>
+                                                <pre class="form-control" ng-hide="doc.type">None</pre>
+                                            </div>
+                                        </div>
+                                        <div class="form-group"  style="width:100%" >
+                                            <label for="search-input">Notes</label>
+                                            <div class="input-group"  style="width:100%">
+                                                <pre class="form-control" ng-show="doc.notes">{{doc.notes}}</pre>
+                                                <pre class="form-control" ng-hide="doc.notes">None</pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+</main>

@@ -1,0 +1,550 @@
+
+    <div class="header_container headerstyle-style2" ng-controller="NavbarCtrl">
+      
+      <!-- BEGIN: TOP BAR -->
+      <div class="fullwidth_container style-top-bar">
+        <div class="container">
+          <div class="info_above_menu">
+            
+            <!-- BEGIN: TOP BAR CONTENTS LEFT -->
+            <div class="eight columns" style="float:left;top: 13px; position:relative;">
+                  
+              <div class="username" ng-show="isLoggedIn()">
+                <span><strong>DigiByte Address: </strong>
+                {{getCurrentUser().address}}</span>
+              </div>
+              <div class="username" ng-hide="isLoggedIn()">
+                <span><strong>Welcome, Please sign in! </strong>
+                </span>
+              </div>
+            </div>
+            <!-- END -->
+            
+            <!-- BEGIN: TOP BAR CONTENTS RIGHT -->
+            <div class="eight columns">
+                                    
+              <div class="socialdiv" style="float:right;">
+                <ul>
+                  <li><a href="#" target="_blank" class="facebook" title="Facebook"></a></li>
+                  <li><a href="#" target="_blank" class="twitter" title="Twitter"></a></li>
+                  <li><a href="#" target="_blank" class="youtube" title="Youtube"></a></li>
+                </ul>
+              </div>
+            </div>            
+            <!-- END -->      
+          </div>
+        </div>
+      </div>
+      <!-- END: TOP BAR -->
+      
+      <!-- BEGIN: HEADER -->    
+      <header id="header" class="container">  
+        
+        <!-- BEGIN: LOGO + SLOGAN-->  
+        <div class="logo_and_menu">
+          
+          <!-- BEGIN: LOGO -->  
+          <div class="logo columns">
+            <h1>
+              <a href="/" tabindex="-1">
+                  <h1><strong>DiguSign</strong></h1>
+                <!-- LOGO --> 
+              </a>
+                <!--img class="logo_normal notalone" src="img/logozap.png" alt="" title="">
+                  
+                  <!-- LOGO RETINA -->        
+                  <!--img class="logo_retina" src="img/logo@2x.png" alt="" title="">
+                </a>
+              </h1-->
+              
+            <!-- BEGIN: SLOGAN -->    
+          </div>
+        
+        <!-- BEGIN: MENU -->  
+        <nav id="menu" class="columns">
+        
+          <!-- BEGIN: DESKTOP MENU -->                                                            
+          <ul id="menulava" class="sf-menu">
+          
+            <!-- BEGIN: MENU ITEM HOME -->
+            <li class="current-menu-item"><a href="/">Home</a>
+            </li>
+          
+            <!-- BEGIN: MENU ITEM FEATURES -->
+            <li class="menu-item" ng-show="isLoggedIn()"><a href="/sign">Sign</a>
+            </li>
+            
+            <!-- BEGIN: MENU ITEM PAGES -->
+            <li class=""><a href="/verify">Verify</a>
+            </li>
+            
+            <!-- BEGIN: MENU ITEM BLOG -->
+            <li class=""><a href="#">FAQ</a>
+            </li>
+
+            <li class="" ng-show="isLoggedIn()"><a href="#">Account</a>
+            </li>
+
+            <!-- BEGIN: MENU ITEM BLOG -->
+            <li class="" ng-show="isLoggedIn()" ng-click="logout()"><a href="#">Logout</a>
+            </li>
+
+            <li class="" ng-hide="isLoggedIn()"><a href="/login">Login</a>
+            </li>  
+          </ul>
+          <!-- END: DESKTOP MENU -->  
+          
+          <!-- BEGIN: MOBILE MENU -->           
+          <div id="select-menu">
+            <select class="dropdown-menu" id="menu-primary-navigation">
+                  <option value="">
+                      Mobile menu
+                  </option>
+          
+                  <option value="">
+                      &nbsp;
+                  </option>
+          
+                  <option value="index.html">
+                      Home
+                  </option>
+          
+                  <option value="home-v1-layerslider.html">
+                      Home v1 LayerSlider
+                  </option>
+          
+                  <option value="home-v2-designare-slider.html">
+                      Home v2 Designare Slider
+                  </option>
+          
+                  <option value="home-v3-revolutionslider.html">
+                      Home v3 RevolutionSlider
+                  </option>
+          
+                  <option value="home-v4-revolutionslider.html">
+                      Home v4 - Cut Rev Slider
+                  </option>
+          
+                  <option value="home-v5-flexslider.html">
+                      Home v5 FlexSlider
+                  </option>
+          
+                  <option value="home-v6-portfolio.html">
+                      Home v6 Portfolio
+                  </option>
+          
+                  <option value="">
+                      &nbsp;
+                  </option>
+          
+                  <option value="#">
+                      Features
+                  </option>
+          
+                  <option value="features.html">
+                      All Zap Features
+                  </option>
+          
+                  <option value="#">
+                      Header Options
+                  </option>
+          
+                  <option value="header-1.html">
+                      Header 1
+                  </option>
+          
+                  <option value="index.html">
+                      Header 2
+                  </option>
+          
+                  <option value="header-3.html">
+                      Header 3
+                  </option>
+          
+                  <option value="header-4.html">
+                      Header 4
+                  </option>
+                  
+                   <option value="#">
+                      Page Titles
+                  </option>
+          
+                  <option value="services-v1.html">
+                      Banner Type
+                  </option>
+          
+                  <option value="features.html">
+                      Image Type
+                  </option>
+          
+                  <option value="percentage-graphs.html">
+                      Colored Style
+                  </option>
+          
+                  <option value="about-v2.html">
+                      Dark Style
+                  </option>
+                  
+                  <option value="services-v2.html">
+                      Light Style
+                  </option>
+                    
+                  <option value="#">
+                      Multilevel Menu
+                  </option>
+          
+                  <option value="#">
+                      Create Awesome
+                  </option>
+          
+                  <option value="#">
+                      Multilevel menus using
+                  </option>
+          
+                  <option value="#">
+                      WP menus
+                  </option>
+          
+                  <option value="#">
+                      Trusted Elite Author!
+                  </option>
+          
+                  <option value="#">
+                      Free Updates &amp; Support
+                  </option>
+          
+                  <option value="#">
+                    Only 17$ Buy it →
+                  </option>
+          
+                  <option value="">
+                      &nbsp;
+                  </option>
+          
+                  <option value="#">
+                      Elements
+                  </option>
+          
+                  <option value="horizontal-tabs.html">
+                      Horizontal tabs
+                  </option>
+          
+                  <option value="percentage-graphs.html">
+                      Percentage graphs
+                  </option>
+          
+                  <option value="toggle.html">
+                      Accordion &amp; Toggle
+                  </option>
+          
+                  <option value="font-awesome.html">
+                      Font Awesome
+                  </option>
+          
+                  <option value="special-tabs.html">
+                      Special tabs
+                  </option>
+          
+                 
+                  <option value="recent-projects.html">
+                      Recent projects
+                  </option>
+          
+                  <option value="recent-posts.html">
+                      Recent posts
+                  </option>
+          
+                  <option value="buttons.html">
+                      Buttons
+                  </option>
+          
+                  <option value="featured-box.html">
+                      Info / Featured Box
+                  </option>
+          
+                  <option value="google-maps.html">
+                      Google maps
+                  </option>
+          
+                  <option value="services-layout.html">
+                      Services layout
+                  </option>
+          
+                  <option value="services-balls.html">
+                      Services balls
+                  </option>
+          
+                  <option value="social-buttons.html">
+                      Social buttons
+                  </option>
+          
+                  <option value="">
+                      &nbsp;
+                  </option>
+          
+                  <option value="#">
+                      Pages
+                  </option>
+          
+                  <option value="about-v1.html">
+                      About us
+                  </option>
+          
+                  <option value="about-v2.html">
+                      About v2
+                  </option>
+                  
+                  <option value="about-v3.html">
+                      About v3
+                  </option>
+          
+                  <option value="services-v1.html">
+                      Services v1
+                  </option>
+          
+                  <option value="services-v2.html">
+                      Services v2
+                  </option>
+          
+                  <option value="our-pricing.html">
+                      Our Pricing
+                  </option>
+          
+                  <option value="contacts-v2.html">
+                      Contacts v2
+                  </option>
+          
+                  <option value="left-sidebar.html">
+                      Left Sidebar
+                  </option>
+          
+                  <option value="right-sidebar.html">
+                      Right Sidebar
+                  </option>
+          
+                  <option value="left-right-sidebar.html">
+                      Left &amp; Right Sidebar
+                  </option>
+          
+                  <option value="bigger-sidebar.html">
+                      Bigger Sidebar
+                  </option>
+          
+                  <option value="faq.html">
+                      Our FAQ
+                  </option>
+          
+                  <option value="">
+                      &nbsp;
+                  </option>
+          
+                  <option value="#">
+                      Portfolio
+                  </option>
+          
+                  <option value="portfolio-v1-2columns.html">
+                      Portfolio v1 2Columns
+                  </option>
+          
+                  <option value="portfolio-v1-3columns.html">
+                      Portfolio v1 3Columns
+                  </option>
+          
+                  <option value="portfolio-v1-4columns.html">
+                      Portfolio v1 4Columns
+                  </option>
+          
+                  <option value="portfolio-v2-2columns.html">
+                      Portfolio v2 2Columns
+                  </option>
+          
+                  <option value="portfolio-v2-3columns.html">
+                      Portfolio v2 3Columns
+                  </option>
+          
+                  <option value="portfolio-v2-4columns.html">
+                      Portfolio v2 4Columns
+                  </option>
+          
+                  <option value="single-leftslider.html">
+                      Singles - Left Slider
+                  </option>
+          
+                  <option value="single-fullslider.html">
+                      Singles - Full Slider
+                  </option>
+          
+                  <option value="single-fullwidth.html">
+                  Singles - FullWidth Slider
+                  </option>
+          
+                  <option value="single-simpleimage.html">
+                      Single - Simple Image
+                  </option>
+          
+                  <option value="">
+                      &nbsp;
+                  </option>
+          
+                  <option value="#">
+                      Blog
+                  </option>
+          
+                  <option value="blog-right-sidebar.html">
+                      Blog - Right Sidebar
+                  </option>
+          
+                  <option value="blog-left-sidebar.html">
+                      Blog - Left Sidebar
+                  </option>
+          
+                  <option value="blog-fullwidth.html">
+                      Blog - Full-Width
+                  </option>
+          
+                  <option value="">
+                      &nbsp;
+                  </option>
+          
+                  <option value="contacts.html">
+                      Contacts
+                  </option>
+          
+                  
+              </select>
+          </div> 
+          <!-- End Menu -->
+        </nav>
+                    
+      </div>
+      </header>
+      <!-- END: HEADER -->
+      <div class="header-shadow"></div>
+    
+    </div>
+
+    <div id="slider_container">
+            
+      <!-- REVOLUTION SLIDER 3.0.2 fullwidth mode -->     
+      <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#f2f2f2;padding:0px;margin-top:0px;margin-bottom:0px;max-height:450px;">
+        <div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;max-height:450px;height:450;">           
+          <ul>
+            
+            <!-- BEGIN: SLIDE #01 -->
+            <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+              
+              <!-- BACKGROUND IMAGE -->
+              <img src="assets/img/banner.jpg" alt="" data-fullwidthcentering="on">
+              
+              
+              <!-- CAPTION #05-->
+              <div class="tp-caption big_white sfr"
+                data-x="-2" 
+                data-y="64"
+                data-speed="1300" 
+                data-start="2500" 
+                data-easing="easeOutExpo">
+                Easy Worldwide Document Certification!
+              </div>
+            
+              
+              <!-- CAPTION #07-->
+              <div class="tp-caption small_text sfb"
+                data-x="4" 
+                data-y="206"
+                data-speed="1300" 
+                data-start="3600" 
+                data-easing="easeOutExpo">
+                <strong>Documents Signed using the power of DigiByte! </strong><br/>
+              </div>
+              
+              <!-- CAPTION #08-->
+              <div class="tp-caption sfb"
+                data-x="4" 
+                data-y="314"
+                data-speed="1600" 
+                data-start="3900" 
+                data-easing="easeOutExpo">
+                <a href='#' class='tp-button darkgrey small'>See our FAQ</a>
+              </div>
+        
+            </li>
+            <!-- END: SLIDE #01 -->
+          </ul>
+          <div class="tp-bannertimer tp-bottom"></div>
+        </div>
+      </div>        
+    
+    <!-- BEGIN: REVOLUTION SLIDER SCRIPT -->            
+    <script type="text/javascript">
+    
+      var tpj=jQuery;
+      
+              
+      var revapi2;
+      
+      tpj(document).ready(function() {
+      
+      if (tpj.fn.cssOriginal != undefined)
+        tpj.fn.css = tpj.fn.cssOriginal;
+      
+      if(tpj('#rev_slider_2_1').revolution == undefined)
+        revslider_showDoubleJqueryError('#rev_slider_2_1');
+      else
+         revapi2 = tpj('#rev_slider_2_1').show().revolution(
+        {
+          delay:9000,
+          startwidth:1010,
+          startheight:450,
+          hideThumbs:200,
+          
+          thumbWidth:100,
+          thumbHeight:50,
+          thumbAmount:4,
+          
+          navigationType:"none",
+          navigationArrows:"solo",
+          navigationStyle:"round",
+          
+          touchenabled:"on",
+          onHoverStop:"on",
+          
+          navigationHAlign:"center",
+          navigationVAlign:"bottom",
+          navigationHOffset:0,
+          navigationVOffset:20,
+    
+          soloArrowLeftHalign:"left",
+          soloArrowLeftValign:"center",
+          soloArrowLeftHOffset:0,
+          soloArrowLeftVOffset:0,
+    
+          soloArrowRightHalign:"right",
+          soloArrowRightValign:"center",
+          soloArrowRightHOffset:0,
+          soloArrowRightVOffset:0,
+              
+          shadow:0,
+          fullWidth:"on",
+          fullScreen:"off",
+    
+          stopLoop:"off",
+          stopAfterLoops:-1,
+          stopAtSlide:-1,
+    
+          shuffle:"off",
+          
+          hideSliderAtLimit:0,
+          hideCaptionAtLimit:0,
+          hideAllCaptionAtLilmit:0,
+          startWithSlide:0,
+          videoJsPath:"http://designarethemes.com/themes/zapwp/wp-content/plugins/revslider/rs-plugin/videojs/",
+          fullScreenOffsetContainer: "" 
+        });
+      
+      }); //ready
+      
+    </script>
+    <!-- END: REVOLUTION SLIDER --> 
+  
+    </div>

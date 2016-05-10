@@ -1,0 +1,57 @@
+
+
+<main id="content" class="content" role="main">
+
+<div class="col-md-10 col-md-offset-1">
+  <ul class="nav nav-pills" id="loginTab" style="margin-top:50px">
+    <li class="btn" ng-repeat="tab in tabs" 
+        ng-class="{active:isActiveTab(tab.url)}" 
+        ng-click="onClickTab(tab)">{{tab.title}}
+    </li>
+  </ul>
+  <hr>
+</div>
+<div id="mainView">
+  <div ng-include="currentTab"></div>
+</div>
+
+  <script type="text/ng-template" id="one.tpl.html">
+    <div class="row" id="viewOne">
+      <div class="col-sm-12 text-center">
+        <h1>Login using Bitid</h1>
+        <p>Easily login using a compatble Bitid enabled Wallet</p>
+        <p>You can download a simple wallet from <a href="/downloadedwallet/">Here</a></p>
+      </div>
+      <div class="col-sm-12 text-center">
+        <a ng-href="{{uri}}" ><img ng-src="{{qrcode}}" /></a>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/ng-template" id="two.tpl.html">
+    <div class="row" id="viewTwo">
+      <div class="col-md-10 col-md-offset-1 text-center">
+        <h1>Manual signing</h1>
+        <p>The user experience is quite combersome, but it has the advangage of being compatible with all wallets
+        including DigiByte Core.</p>
+        <p>Please sign the challenge in the box below using the private key of this DigiByte address you want to
+        identify yourself with. Copy the text, open your wallet, choose your DigiByte address, select the sign message
+        function, paste the text into the message input and sign. After it is done, copy and paste the signature 
+        into the field below.</p>
+        <p>Cumbersome. Yep. Much better with a simple scan or click using a compatible wallet :)</p>
+        <pre>{{uri}}</pre>
+        <div class="form-group">
+          <label>DigiByte address</label>
+          <input type="text" name="address" id="formAddress" class="form-control" ng-model="formAddress" placeholder="Enter your public DigiByte address">
+        </div>
+        <div class="form-group">
+          <label>Signature</label>
+          <input type="text" name="signature" id="formSignature" class="form-control" ng-model="formSignature" placeholder="Enter the signature">
+        </div>
+        <button id="check" class="btn btn-success" data-loading-text="Verifying signature" ng-click="manualLogin()">Sign in !</button>
+        <div></div>     
+      </div>
+    </div>
+  </script>
+
+</main>

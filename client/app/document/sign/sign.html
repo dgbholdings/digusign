@@ -1,0 +1,71 @@
+
+<main id="content" class="content" role="main">
+
+            <div class="col-md-12">
+                <section class="widget">
+                    <header class="text-center">
+                        <h3>
+                            <strong>Sign Document:</strong> 
+                            <br>
+                            {{hash}}
+                        </h3>
+                    </header>
+                    <div class="widget-body" style="margin-top:25px">
+                        <form role="form" ng-submit="submit()">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="form-group ">
+                                            <label for="search-input">Document Name (optional)</label>
+                                            <div class="input-group"  style="width:100%">
+                                                <input type="text" class="form-control" id="bar">
+                                            </div>
+                                        </div>
+                                        <div class="form-group"  style="width:100%">
+                                            <label for="default-select">Choose a Document Type</label>
+                                            <div class="input-group" style="width:100%">
+                                                <select
+                                                        data-width="auto"
+                                                        data-minimum-results-for-search="10"
+                                                        tabindex="-1"
+                                                        class="select2 form-control" id="default-select" ng-options="item as item.name for item in docTypes track by item.code" ng-model="selectedType">
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-4" for="fileupload1">
+                                                Select Document
+                                            </label>
+                                            <div class="input-group" style="width:100%">
+                                                <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                                                    <div class="form-control" data-trigger="fileinput">
+                                                        <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                        <span class="fileinput-filename">{{file}}</span>
+                                                    </div>
+                                                    <span class="input-group-addon btn btn-primary btn-file" ng-click="fileClick()">
+                                                        <span class="fileinput-new">Select file</span>
+                                                        <input id="file" type="file" onchange="angular.element(this).scope().onFileUpload(this)" style="position:relative;overflow:hidden;display:none">
+                                                    </span>
+                                                </div>
+                                                <span class="help-block"><strong></strong></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="col-md-offset-1">
+                                <button type="submit" class="btn btn-success">Sign Document</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="widget-body" style="margin-top:25px">
+                      <div class="row">
+                        <div class="col-md-10 col-md-offset-1 text-center">
+                          <span style="font-style: italic"><strong>The Document will be converted into a SHA256 Digest on your computer and that Digest is the only information we recieve about your document</strong></span>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+</main>

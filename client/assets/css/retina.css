@@ -1,0 +1,209 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+	.logo_retina{
+		display: block !important;
+		-webkit-background-size:56px 40px; 
+		-moz-background-size:56px 40px; 
+		-o-background-size:56px 40px; 
+		background-size:56px 40px;
+	}
+	.logo_normal.notalone{display: none;}
+	.dropdown-menu {
+		padding: 11px;
+		background: url('../img/navselect@2x.png') no-repeat 89% 11px;
+		color: #444;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 12px;
+		border-radius: 0;
+		border: 0;
+		width: auto;
+		text-transform: uppercase;
+		top: 0;
+		border: 1px solid #ededed;
+		-webkit-background-size:19px 15px; 
+		-moz-background-size:19px 15px; 
+		-o-background-size:19px 15px; 
+		background-size:19px 15px;
+	}
+	.trigger_toppanel_closer .clicker .signal {
+		background: url(../img/top-panel-trigger-close@2x.png) 20px 7px no-repeat;
+		-webkit-background-size:8px 8px; 
+		-moz-background-size:8px 8px; 
+		-o-background-size:8px 8px; 
+		background-size:8px 8px;
+	}
+	#toppanel_trigger .signal {
+		background: url(../img/top-panel-trigger@2x.png) 20px 7px no-repeat;
+		-webkit-background-size:8px 8px; 
+		-moz-background-size:8px 8px; 
+		-o-background-size:8px 8px; 
+		background-size:8px 8px;
+	}
+	.tp-leftarrow.default{
+	     background: url(../img/des-large_left@2x.png) no-repeat 0 0 !important;
+	     -webkit-background-size:51px 70px; 
+		-moz-background-size:51px 70px; 
+		-o-background-size:51px 70px; 
+		background-size:51px 70px;
+		width: 51px;
+		height: 70px;
+	}
+	.tp-rightarrow.default{	
+	    background: url(../img/des-large_right@2x.png) no-repeat 0 0 !important;
+	    -webkit-background-size:51px 70px; 
+		-moz-background-size:51px 70px; 
+		-o-background-size:51px 70px; 
+		background-size:51px 70px;
+		width: 51px;
+		height: 70px;
+	
+	}
+	.tp-leftarrow.default:hover{
+	     background: url(../img/des-large_left-hover@2x.png) no-repeat 0 0 !important;
+	     -webkit-background-size:51px 70px; 
+		-moz-background-size:51px 70px; 
+		-o-background-size:51px 70px; 
+		background-size:51px 70px;
+		width: 51px;
+		height: 70px;
+	}
+	.tp-rightarrow.default:hover{	
+	    background: url(../img/des-large_right-hover@2x.png) no-repeat 0 0 !important;
+	    -webkit-background-size:51px 70px; 
+		-moz-background-size:51px 70px; 
+		-o-background-size:51px 70px; 
+		background-size:51px 70px;
+		width: 51px;
+		height: 70px;
+	}
+	
+	
+	.jcarousel-next-horizontal{
+	    width: 22px;
+	    height: 22px;
+	    background: url(../img/arrow-p@2x.png) no-repeat center center !important;
+	    -webkit-background-size:7px 11px; 
+		-moz-background-size:7px 11px; 
+		-o-background-size:7px 11px; 
+		background-size:7px 11px;
+	}
+	
+	
+	
+	.jcarousel-next-horizontal:hover,
+	.jcarousel-next-horizontal:focus {
+	    opacity: 1;
+	    background: url(../img/arrow-phover@2x.png) no-repeat center center !important;
+	    -webkit-background-size:7px 11px; 
+		-moz-background-size:7px 11px; 
+		-o-background-size:7px 11px; 
+		background-size:7px 11px;
+	}
+	
+	.jcarousel-prev-horizontal {
+	    width: 22px;
+	    height: 22px;
+	    background: url(../img/arrow-l@2x.png) no-repeat center center !important;
+	    -webkit-background-size:7px 11px; 
+		-moz-background-size:7px 11px; 
+		-o-background-size:7px 11px; 
+		background-size:7px 11px;
+	}
+	
+	
+	
+	.jcarousel-prev-horizontal:hover, 
+	.jcarousel-prev-horizontal:focus {
+	    opacity: 1;
+	    background: url(../img/arrow-lhover@2x.png) no-repeat center center !important;
+	    -webkit-background-size:7px 11px; 
+		-moz-background-size:7px 11px; 
+		-o-background-size:7px 11px; 
+		background-size:7px 11px;
+	}
+	
+	.goto_projects, .goto_blog{
+		background: url(../img/goto_projblog@2x.png) no-repeat center center !important;
+		width: 22px;
+		height: 22px;
+		-webkit-background-size:14px 14px; 
+		-moz-background-size:14px 14px; 
+		-o-background-size:14px 14px; 
+		background-size:14px 14px;
+	}
+	.goto_projects:hover, .goto_blog:hover{
+		background: url(../img/goto_projbloghover@2x.png) no-repeat center center !important;
+		-webkit-background-size:14px 14px; 
+		-moz-background-size:14px 14px; 
+		-o-background-size:14px 14px; 
+		background-size:14px 14px;
+		width: 22px;
+		height: 22px;
+	}
+	
+	#back-to-top a {
+	    width: 45px;
+	    height: 45px;
+	    background: rgba(0,0,0,0.5) url(../img/backtotop@2x.png) no-repeat center center;
+	    -webkit-background-size:9px 5px; 
+		-moz-background-size:9px 5px; 
+		-o-background-size:9px 5px; 
+		background-size:9px 5px;
+	}
+	
+	
+	.socialdiv .facebook{ background: url(../img/social-icons/facebook@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .twitter{ background: url(../img/social-icons/twitter@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .forrst{ background: url(../img/social-icons/forrst@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .flickr{background: url(../img/social-icons/flickr@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .linkedin{background: url(../img/social-icons/linkedin@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .skype{ background: url(../img/social-icons/skype@2x.png) -3px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .google{ background: url(../img/social-icons/googleplus@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .vimeo{ background: url(../img/social-icons/vimeo@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .picasa{ background: url(../img/social-icons/picasa@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .deviantart{ background: url(../img/social-icons/deviantart@2x.png) -3px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .behance{ background: url(../img/social-icons/behance@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  } 
+	.socialdiv .youtube{ background: url(../img/social-icons/youtube@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .rss{ background: url(../img/social-icons/rss@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .pinterest{ background: url(../img/social-icons/pinterest@2x.png) -3px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .stumble{ background: url(../img/social-icons/stumbleupon@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .delicious{ background: url(../img/social-icons/delicious@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .digg{ background: url(../img/social-icons/digg@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .instagram{ background: url(../img/social-icons/instagram@2x.png) -4px 0px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  } 
+	.socialdiv .myspace{ background: url(../img/social-icons/myspace@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .blogger{ background: url(../img/social-icons/blogger@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .wordpress{ background: url(../img/social-icons/wordpress@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .grooveshark{ background: url(../img/social-icons/grooveshark@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .reddit{ background: url(../img/social-icons/reddit@2x.png) -3px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .soundcloud{ background: url(../img/social-icons/github@2x.png) -3px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .dribbble{ background: url(../img/social-icons/dribbble@2x.png) -4px 0px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	
+	/* SOcial Header Hover*/
+	.socialdiv .facebook:hover{ background: #3b5998 url(../img/social-icons/facebook@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .twitter:hover{ background: #35c9f9 url(../img/social-icons/twitter@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .forrst:hover{ background: #62956a url(../img/social-icons/forrst@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .flickr:hover{ background: #ff0084 url(../img/social-icons/flickr@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .linkedin:hover{background: #005886 url(../img/social-icons/linkedin@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .skype:hover{ background: #50bee3 url(../img/social-icons/skype@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .google:hover{ background: #d24a30 url(../img/social-icons/googleplus@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .vimeo:hover{ background: #509a99 url(../img/social-icons/vimeo@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .picasa:hover{ background: #9864ae url(../img/social-icons/picasa@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .deviantart:hover{ background: #a8b30e url(../img/social-icons/deviantart@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .behance:hover{ background: #212121 url(../img/social-icons/behance@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  } 
+	.socialdiv .youtube:hover{ background: #cb322c url(../img/social-icons/youtube@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .rss:hover{ background: #f7771e url(../img/social-icons/rss@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .pinterest:hover{ background: #cb2027 url(../img/social-icons/pinterest@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .stumble:hover{ background: #32a358 url(../img/social-icons/stumbleupon@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .delicious:hover{ background: #3274d1 url(../img/social-icons/delicious@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .digg:hover{ background: #000 url(../img/social-icons/digg@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .instagram:hover{ background: #517fa4 url(../img/social-icons/instagram@2x.png) -37px 0px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; } 
+	.socialdiv .myspace:hover{ background: #000 url(../img/social-icons/myspace@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .blogger:hover{ background: #fc9644 url(../img/social-icons/blogger@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .wordpress:hover{ background: #278ab7 url(../img/social-icons/wordpress@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .grooveshark:hover{ background: #f77f00 url(../img/social-icons/grooveshark@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .reddit:hover{ background: rgb(170, 199, 228) url(../img/social-icons/reddit@2x.png) -37px 1px no-repeat; -webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px; }
+	.socialdiv .soundcloud:hover{ background: #F76700 url(../img/social-icons/github@2x.png) -37px 1px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }
+	.socialdiv .dribbble:hover{ background: #df3e7b url(../img/social-icons/dribbble@2x.png) -37px 0px no-repeat;-webkit-background-size:80px 40px; -moz-background-size:80px 40px; -o-background-size:80px 40px; background-size:80px 40px;  }       
+
+}

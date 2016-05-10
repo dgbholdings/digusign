@@ -1,0 +1,58 @@
+
+<main id="content" class="content" role="main">
+
+            <div class="col-md-12">
+                <section class="widget">
+                    <header class="text-center">
+                        <h3>
+                            <strong>Verify Document</strong> 
+                        </h3>
+                    </header>
+                    <div class="widget-body" style="margin-top:25px">
+                        <form role="form" ng-submit="verifyDocument()">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-4" for="fileupload1">
+                                                Select Document
+                                            </label>
+                                            <div class="input-group" style="width:100%">
+                                                <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                                                    <div class="form-control" data-trigger="fileinput">
+                                                        <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                        <span class="fileinput-filename">{{file}}</span>
+                                                    </div>
+                                                    <span class="input-group-addon btn btn-primary btn-file" ng-click="fileClick()">
+                                                        <span class="fileinput-new">Select file</span>
+                                                        <input id="file" type="file" onchange="angular.element(this).scope().onFileUpload(this)" style="position:relative;overflow:hidden;display:none">
+                                                    </span>
+                                                </div>
+                                                <span class="help-block"><strong></strong></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group"  style="width:100%">
+                                            <label for="default-select">Or enter the Transaction ID</label>
+                                            <div class="input-group"  style="width:100%">
+                                                <input type="text" class="form-control" id="bar" ng-model="txid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="col-md-offset-1">
+                                <button type="submit" class="btn btn-success">Verify Document</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="widget-body" style="margin-top:25px">
+                      <div class="row">
+                        <div class="col-md-10 col-md-offset-1 text-center">
+                          <span style="font-style: italic"><strong>Simply select the original document or enter the transaction ID (if you know it) and if the document was signed by DiguSign you will be redirected to the document details</strong></span>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+</main>

@@ -1,0 +1,29 @@
+{
+  "name": "digu-sign",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": ">= 2.1.0",
+    "jquery-pjax": "https://github.com/defunkt/jquery-pjax.git#master",
+    "jQuery-slimScroll": "git://github.com/rochal/jQuery-slimScroll.git",
+    "jquery-ui": "git://github.com/jquery/jquery-ui.git#1.11.0-beta.1",
+    "jquery-ui-touch-punch": "git://github.com/furf/jquery-ui-touch-punch.git",
+    "angular": ">=1.2.*",
+    "json3": "~3.3.1",
+    "es5-shim": "~3.0.1",
+    "bootstrap": "~3.1.1",
+    "angular-resource": ">=1.2.*",
+    "angular-cookies": ">=1.2.*",
+    "angular-sanitize": ">=1.2.*",
+    "font-awesome": "^4.6.2",
+    "lodash": "~2.4.1",
+    "angular-socket-io": "~0.6.0",
+    "angular-ui-router": "~0.2.15",
+    "dropzone": "^4.3.0",
+    "angular-dropzone": "^0.1.2",
+    "bootstrap-sass": "^3.3.6"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.2.*",
+    "angular-scenario": ">=1.2.*"
+  }
+}
